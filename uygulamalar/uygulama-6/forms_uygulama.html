@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="../uygulama-7/index.html">Anasayfa</a> |
+      <a href="../uygulama-4/en-iyi-filmler.html">En İyi Filmler</a> |
+      <a href="../uygulama-6/forms_uygulama.html">Kayıt Ol</a>
+    </nav>
+    <hr />
+    <h1>Lütfen Formu Eksiksiz Doldurunuz</h1>
+    <hr />
+    <h2>Hesap Bilgileriniz</h2>
+    <table>
+      <tr>
+        <td>
+          <label for="kullaniciadi"><b>Kullanıcı Adı :</b></label>
+        </td>
+        <td>
+          <input
+            type="text"
+            id="kullaniciadi"
+            placeholder="Kullanıcı adı giriniz"
+            style="opacity: 0.7"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="posta"><b>Eposta :</b></label>
+        </td>
+        <td>
+          <input
+            type="email"
+            id="posta"
+            placeholder="Eposta giriniz"
+            style="opacity: 0.7"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="parola"><b>Parola :</b></label>
+        </td>
+        <td>
+          <input
+            type="password"
+            id="parola"
+            placeholder="Parola giriniz"
+            style="opacity: 0.7"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2><b>Kişisel Bilgileriniz :</b></h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="name"><b>Adınız :</b></label>
+        </td>
+        <td>
+          <input
+            type="text"
+            id="name"
+            placeholder="Ad giriniz"
+            style="opacity: 0.7"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="surname"> <b>Soyadınız :</b></label>
+        </td>
+        <td>
+          <input
+            type="text"
+            id="surname"
+            placeholder="Soyadı giriniz"
+            style="opacity: 0.7"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="sehir"><b>Şehir :</b></label>
+        </td>
+        <td>
+          <select id="sehir" style="opacity: 0.7">
+            <option>Seciniz</option>
+            <option value="52">Ordu</option>
+            <option value="28">Giresun</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Cinsiyet :</b></p>
+        </td>
+        <td>
+          <label for="erkek">Erkek</label>
+          <input type="radio" name="gender" id="erkek" />
+
+          <label for="kadin">Kadın</label>
+          <input type="radio" name="gender" id="kadin" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Hobileriniz :</b></p>
+        </td>
+        <td>
+          <label for="sinema">Sinema</label>
+          <input type="checkbox" id="sinema" />
+
+          <label for="gezmek">Gezmek</label>
+          <input type="checkbox" id="gezmek" />
+
+          <label for="spor">Spor</label>
+          <input type="checkbox" id="spor" />
+
+          <label for="kitap">Kitap</label>
+          <input type="checkbox" id="kitap  " />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
